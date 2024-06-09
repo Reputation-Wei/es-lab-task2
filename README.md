@@ -4,13 +4,18 @@
 This repository contains the backend server for the Task Scheduling front-end. The backend is responsible for processing the logical model, running scheduling algorithms, and communicating with the frontend. It is built with FastAPI and provides a RESTful API for interaction with the [frontend](https://eslab2.pages.dev/).
 
 ## Table of Contents
-- [Getting Started](#getting-started)
-- [Technologies Used](#technologies-used)
-- [Features](#features)
-- [API Endpoints](#api-endpoints)
-- [Input and Output Schemas](#input-and-output-formats)
-- [Components](#components)
-- [Contributing](#contributing)
+- [Task Scheduling Backend](#task-scheduling-backend)
+  - [Table of Contents](#table-of-contents)
+  - [Getting Started](#getting-started)
+  - [Technologies Used](#technologies-used)
+  - [Features](#features)
+  - [API Endpoints](#api-endpoints)
+  - [Input and Output Schemas](#input-and-output-schemas)
+    - [API Input Schema for /schedule\_jobs](#api-input-schema-for-schedule_jobs)
+    - [Output Schema for /schedule\_jobs](#output-schema-for-schedule_jobs)
+  - [Components](#components)
+  - [Contributing](#contributing)
+  - [Resources and References](#resources-and-references)
 
 ## Getting Started
 
@@ -32,7 +37,7 @@ This repository contains the backend server for the Task Scheduling front-end. T
 4. Start the development server:
     ``` BASH 
     cd src
-    python3 backend.py
+    python backend.py
     ```
    The backend server will start running on http://localhost:8000
 
